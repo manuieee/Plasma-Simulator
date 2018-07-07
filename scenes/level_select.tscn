@@ -1,0 +1,571 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://scripts/level_select.gd" type="Script" id=1]
+[ext_resource path="res://theme/nebula.tex" type="Texture" id=2]
+[ext_resource path="res://fonts/just_in_the_firestorm.fnt" type="BitmapFont" id=3]
+
+[node name="level_select" type="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 40.0
+margin/bottom = 40.0
+script/script = ExtResource( 1 )
+
+[node name="background" type="Sprite" parent="."]
+
+transform/scale = Vector2( 1, 0.938081 )
+texture = ExtResource( 2 )
+centered = false
+__meta__ = { "_edit_lock_":true }
+
+[node name="plasma_simulator" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 380.0
+margin/top = 60.0
+margin/right = 559.0
+margin/bottom = 76.0
+custom_fonts/font = ExtResource( 3 )
+text = "Plasma Simulator"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+__meta__ = { "_edit_lock_":true }
+
+[node name="red_plasma_type_1" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 80.0
+margin/top = 170.0
+margin/right = 267.0
+margin/bottom = 194.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Red Plasma Type 1"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="red_plasma_type_2" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 80.0
+margin/top = 200.0
+margin/right = 274.0
+margin/bottom = 224.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Red Plasma Type 2"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="red_plasma_type_3" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 80.0
+margin/top = 230.0
+margin/right = 273.0
+margin/bottom = 254.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Red Plasma Type 3"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="red_plasma_type_4" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 80.0
+margin/top = 260.0
+margin/right = 274.0
+margin/bottom = 284.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Red Plasma Type 4"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="red_plasma_type_5" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 80.0
+margin/top = 290.0
+margin/right = 274.0
+margin/bottom = 314.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Red Plasma Type 5"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="red_plasma_type_6" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 80.0
+margin/top = 320.0
+margin/right = 274.0
+margin/bottom = 344.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Red Plasma Type 6"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="purple_plasma_type_1" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 80.0
+margin/top = 350.0
+margin/right = 303.0
+margin/bottom = 374.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Purple Plasma Type 1"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="blue_plasma_type_1" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 80.0
+margin/top = 380.0
+margin/right = 279.0
+margin/bottom = 407.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Blue Plasma Type 1"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="blue_plasma_type_2" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 320.0
+margin/top = 170.0
+margin/right = 526.0
+margin/bottom = 197.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Blue Plasma Type 2"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="blue_plasma_type_3" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 320.0
+margin/top = 200.0
+margin/right = 526.0
+margin/bottom = 227.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Blue Plasma Type 3"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="blue_plasma_type_4" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 320.0
+margin/top = 230.0
+margin/right = 526.0
+margin/bottom = 257.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Blue Plasma Type 4"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="green_plasma_type_1" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 320.0
+margin/top = 260.0
+margin/right = 531.0
+margin/bottom = 287.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Green Plasma Type 1"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="green_plasma_type_2" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 320.0
+margin/top = 290.0
+margin/right = 538.0
+margin/bottom = 317.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Green Plasma Type 2"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="blue_green_plasma_type_1" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 320.0
+margin/top = 320.0
+margin/right = 584.0
+margin/bottom = 347.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Blue Green Plasma Type 1"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="color_plasma_type_1" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 320.0
+margin/top = 350.0
+margin/right = 531.0
+margin/bottom = 374.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Color Plasma Type 1"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="color_plasma_type_2" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 320.0
+margin/top = 380.0
+margin/right = 538.0
+margin/bottom = 404.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Color Plasma Type 2"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="blue_plasma_field_type_1" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 600.0
+margin/top = 170.0
+margin/right = 857.0
+margin/bottom = 194.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Blue Plasma Field Type 1"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="blue_plasma_field_type_2" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 600.0
+margin/top = 200.0
+margin/right = 864.0
+margin/bottom = 224.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Blue Plasma Field Type 2"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="blue_plasma_field_type_3" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 600.0
+margin/top = 230.0
+margin/right = 864.0
+margin/bottom = 254.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Blue Plasma Field Type 3"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="plasma_field_type_4" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 600.0
+margin/top = 260.0
+margin/right = 811.0
+margin/bottom = 284.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Plasma Field Type 4"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="oscillating_plasma" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 600.0
+margin/top = 290.0
+margin/right = 811.0
+margin/bottom = 314.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Oscillating Plasma"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="plasma_ring" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 600.0
+margin/top = 320.0
+margin/right = 731.0
+margin/bottom = 344.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Plasma Ring"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="force_field_plasma" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 600.0
+margin/top = 350.0
+margin/right = 896.0
+margin/bottom = 374.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Force Field through Plasma"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="back_to_menu" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 820.0
+margin/top = 60.0
+margin/right = 962.0
+margin/bottom = 84.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.96875, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.125, 0, 1, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Back to Menu"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[connection signal="pressed" from="red_plasma_type_1" to="." method="_on_red_plasma_type_1_pressed"]
+
+[connection signal="pressed" from="red_plasma_type_2" to="." method="_on_red_plasma_type_2_pressed"]
+
+[connection signal="pressed" from="red_plasma_type_3" to="." method="_on_red_plasma_type_3_pressed"]
+
+[connection signal="pressed" from="red_plasma_type_4" to="." method="_on_red_plasma_type_4_pressed"]
+
+[connection signal="pressed" from="red_plasma_type_5" to="." method="_on_red_plasma_type_5_pressed"]
+
+[connection signal="pressed" from="red_plasma_type_6" to="." method="_on_red_plasma_type_6_pressed"]
+
+[connection signal="pressed" from="purple_plasma_type_1" to="." method="_on_purple_plasma_type_1_pressed"]
+
+[connection signal="pressed" from="blue_plasma_type_1" to="." method="_on_blue_plasma_type_1_pressed"]
+
+[connection signal="pressed" from="blue_plasma_type_2" to="." method="_on_blue_plasma_type_2_pressed"]
+
+[connection signal="pressed" from="blue_plasma_type_3" to="." method="_on_blue_plasma_type_3_pressed"]
+
+[connection signal="pressed" from="blue_plasma_type_4" to="." method="_on_blue_plasma_type_4_pressed"]
+
+[connection signal="pressed" from="green_plasma_type_1" to="." method="_on_green_plasma_type_1_pressed"]
+
+[connection signal="pressed" from="green_plasma_type_2" to="." method="_on_green_plasma_type_2_pressed"]
+
+[connection signal="pressed" from="blue_green_plasma_type_1" to="." method="_on_blue_green_plasma_type_1_pressed"]
+
+[connection signal="pressed" from="color_plasma_type_1" to="." method="_on_color_plasma_type_1_pressed"]
+
+[connection signal="pressed" from="color_plasma_type_2" to="." method="_on_color_plasma_type_2_pressed"]
+
+[connection signal="pressed" from="blue_plasma_field_type_1" to="." method="_on_blue_plasma_field_type_1_pressed"]
+
+[connection signal="pressed" from="blue_plasma_field_type_2" to="." method="_on_blue_plasma_field_type_2_pressed"]
+
+[connection signal="pressed" from="blue_plasma_field_type_3" to="." method="_on_blue_plasma_field_type_3_pressed"]
+
+[connection signal="pressed" from="plasma_field_type_4" to="." method="_on_plasma_field_type_4_pressed"]
+
+[connection signal="pressed" from="oscillating_plasma" to="." method="_on_oscillating_plasma_pressed"]
+
+[connection signal="pressed" from="plasma_ring" to="." method="_on_plasma_ring_pressed"]
+
+[connection signal="pressed" from="force_field_plasma" to="." method="_on_force_field_plasma_pressed"]
+
+[connection signal="pressed" from="back_to_menu" to="." method="_on_back_to_menu_pressed"]
+
+
